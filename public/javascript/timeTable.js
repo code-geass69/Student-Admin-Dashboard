@@ -1,0 +1,194 @@
+const Sunday =[
+    {   
+        time: 'Sunday',
+        roomNumber: 'Holiday',
+        subject: 'Self Study',
+        type: ''
+    }
+]
+const Monday =[
+    {   
+        time: '8:30-9:30 AM',
+        roomNumber: '607',
+        subject: 'IIS',
+        type: 'Lecture'
+    },
+    {   
+        time: '9:30-11:30 AM',
+        roomNumber: '324',
+        subject: 'IIS',
+        type: 'Practical'
+    },
+    {   
+        time: '11:30-12:15 PM',
+        roomNumber: 'NA',
+        subject: 'NA',
+        type: 'Break'
+    },
+    {   
+        time: '12:15-1:15 PM',
+        roomNumber: '608',
+        subject: 'ADBMS',
+        type: 'Lecture'
+    },
+    {   
+        time: '1:15-2:15 PM',
+        roomNumber: '607',
+        subject: 'Soft Skills',
+        type: 'Lecture'
+    }
+
+]
+const Tuesday =[
+    {   
+        time: '8:30-9:30 AM',
+        roomNumber: '608',
+        subject: 'ADBMS',
+        type: 'Lecture'
+    },
+    {   
+        time: '9:30-11:30 AM',
+        roomNumber: '306',
+        subject: 'PS-V',
+        type: 'Practical'
+    },
+    {   
+        time: '11:30-12:15 PM',
+        roomNumber: 'NA',
+        subject: 'NA',
+        type: 'Break'
+    },
+    {   
+        time: '12:15-1:15 PM',
+        roomNumber: '607',
+        subject: 'MP',
+        type: 'Lecture'
+    },
+    {   
+        time: '1:15-2:15 PM',
+        roomNumber: '607',
+        subject: 'TCS',
+        type: 'Tutorial'
+    }
+]
+
+const Wednesday =[
+    {   
+        time: '8:30-9:30 AM',
+        roomNumber: '607',
+        subject: 'IC',
+        type: 'Lecture'
+    },
+    {   
+        time: '9:30-11:30 AM',
+        roomNumber: '324',
+        subject: 'ADBMS',
+        type: 'Practical'
+    },
+    {   
+        time: '11:30-12:15 PM',
+        roomNumber: 'NA',
+        subject: 'NA',
+        type: 'Break'
+    },
+    {   
+        time: '12:15-1:15 PM',
+        roomNumber: '608',
+        subject: 'MP',
+        type: 'Lecture'
+    },
+    {   
+        time: '1:15-2:15 PM',
+        roomNumber: '607',
+        subject: 'IIS',
+        type: 'Lecture'
+    }
+]
+
+const Thursday =[
+    {   
+        time: '8:30-9:30 AM',
+        roomNumber: '607',
+        subject: 'PS-V',
+        type: 'Lecture'
+    },
+    {   
+        time: '9:30-11:30 AM',
+        roomNumber: '324',
+        subject: 'MP',
+        type: 'Practical'
+    },
+    {   
+        time: '11:30-12:15 PM',
+        roomNumber: 'NA',
+        subject: 'NA',
+        type: 'Break'
+    },
+    {   
+        time: '12:15-1:15 PM',
+        roomNumber: '608',
+        subject: 'TCS',
+        type: 'Lecture'
+    },
+    {   
+        time: '1:15-2:15 PM',
+        roomNumber: '607',
+        subject: 'Soft Skills',
+        type: 'Lecture'
+    }
+]
+
+const Friday =[
+    {   
+        time: '8:30-9:30 AM',
+        roomNumber: 'NA',
+        subject: 'NA',
+        type: 'Free Hour'
+    },
+    {   
+        time: '9:30-10:30 AM',
+        roomNumber: '610',
+        subject: 'TCS',
+        type: 'Lecture'
+    },
+    {   
+        time: '11:30-12:15 PM',
+        roomNumber: 'NA',
+        subject: 'NA',
+        type: 'Break'
+    },
+    {   
+        time: '12:15-1:15 PM',
+        roomNumber: '608',
+        subject: 'ADBMS',
+        type: 'Lecture'
+    },
+    {   
+        time: '1:15-2:15 PM',
+        roomNumber: '3607',
+        subject: 'Soft Skills',
+        type: 'Lecture'
+    }
+
+]
+
+const Saturday =[
+    {   
+        time: '9-12 AM',
+        roomNumber: 'Allocated',
+        subject: 'ACT-TNP',
+        type: 'Lecture'
+    },
+    {   
+        time: '12-01 PM',
+        roomNumber: 'NA',
+        subject: 'NA',
+        type: 'Break'
+    },
+    {   
+        time: '01-04 PM',
+        roomNumber: 'Allocated',
+        subject: 'ACT-TNP',
+        type: 'Lecture'
+    }
+]

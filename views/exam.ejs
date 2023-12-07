@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard</title>
+    <link rel="shortcut icon" href="./images/logo.png">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <style>
+        body{overflow: hidden;}
+        header{position: relative;}
+        .exam{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 80vh;
+            width: 80%;
+            margin: auto;
+        }
+    </style>
+</head>
+    
+<body>
+    <header>
+        <div class="logo" title="E-Learning Portal">
+            <img src="https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books_23-2149334862.jpg?size=338&ext=jpg&ga=GA1.1.1413502914.1696723200&semt=sph" alt="">
+            <h2>E<span class="danger">Learning</span>Portal</h2>
+        </div>
+        <div class="navbar">
+            <a href="/home" >
+                <span class="material-icons-sharp">home</span>
+                <h3>Home</h3>
+            </a>
+            <a href="/timetable" onclick=timeTableAll()>
+                <span class="material-icons-sharp">today</span>
+                <h3>Time Table</h3>
+            </a> 
+            <a href="/examination" class="active">
+                <span class="material-icons-sharp">grid_view</span>
+                <h3>Examination</h3>
+            </a>
+            <a href="/Assignment">
+                <span class="material-icons-sharp">grid_view</span>
+                <h3>Assignments</h3>
+            </a>
+            <a href="/logout">
+                <span class="material-icons-sharp">logout</span>
+                <h3>Logout</h3>
+            </a>
+        </div>
+        <div id="profile-btn">
+            <span class="material-icons-sharp">person</span>
+        </div>
+        <div class="theme-toggler">
+            <span class="material-icons-sharp active">light_mode</span>
+            <span class="material-icons-sharp">dark_mode</span>
+        </div>
+        
+    </header>
+
+    <main>
+        <div class="exam timetable">
+            <h2>Exam - ISE II</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Time</th>
+                        <th>Subject</th>
+                        <th>Room no.</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>25 Nov 2023</td>
+                        <td>09-12 AM</td>
+                        <td>IIS</td>
+                        <td>607</td>
+                    </tr>
+                    <tr>
+                        <td>27 Nov 2023</td>
+                        <td>09-12 AM</td>
+                        <td>ADBMS</td>
+                        <td>704</td>
+                    </tr>
+                    <tr>
+                        <td>29 Nov 2023</td>
+                        <td>09-12 AM</td>
+                        <td>TCS</td>
+                        <td>609</td>
+                    </tr>
+                    <tr>
+                        <td>01 Dec 2023</td>
+                        <td>09-12 AM</td>
+                        <td>MP</td>
+                        <td>610</td>
+                    </tr>
+                    <tr>
+                        <td>04 Dec 2023</td>
+                        <td>09-12 AM</td>
+                        <td>Soft Skills</td>
+                        <td>713</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+    </main>
+
+</body>
+
+<script src="javascript/app.js"></script>
+</html>

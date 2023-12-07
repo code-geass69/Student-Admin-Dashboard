@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f8f9fa;
+          
+        }
+
+        .login-container {
+            max-width: 400px;
+            padding: 30px;
+            border-color: black;
+            border-radius: 10px;
+            background-color: #ffffff;
+            
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        input.form-control {
+            border-radius: 5px;
+        }
+
+        button[type="submit"] {
+            background-color: #007bff;
+         
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            color: #ffffff;
+           
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #0056b3;
+           
+        }
+
+        .register-link {
+            color: #007bff;
+          
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .register-link:hover {
+            color: #0056b3;
+          
+        }
+    </style>
+</head>
+
+<body>
+   
+    
+    <div class="login-container">
+        <h2 class="mb-4">Login</h2>
+
+        <% if (typeof error !== 'undefined' && error !== null) { %>
+            <div class="alert alert-danger"><%= error %></div>
+        <% } %>
+
+        <form action="/login" method="POST">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" class="form-control" required>
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Login</button>
+            
+        </form>
+        <form action="/admin/login">
+            <button type="submit" class="btn btn-primary" style="margin-top: 10px;">Admin Login</button>
+              </form>
+              
+        <div class="text-center mb-3 mt-3">
+            <span>Don't have an account? </span><a href="/register" class="register-link">Register</a>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
