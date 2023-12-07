@@ -9,11 +9,17 @@ On the administrative side, our dashboard equips educators with a powerful tool 
 The user interface is intuitive and accessible, making navigation a seamless experience for both students and administrators. Our goal is to simplify the educational journey, providing students with the tools they need to succeed while offering administrators a platform that enhances efficiency in managing assignments and grading.
 
 How to Run:
+
 1)Download the zip and open it in command prompt or Vs terminal
+
 2)Ensure you have node.js install on your desktop
+
 3)Run command - npm install to download required dependencies
+
 4)Then run command "nodemon index.js" to run the code.
+
 5)Go to any local browser and open localhost:3000
+
 6)To connect to backend install Mongodb on your desktop
 
 Tools Used:
