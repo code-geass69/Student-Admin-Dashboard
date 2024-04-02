@@ -10,11 +10,17 @@
 🛠️ How to Run:
 
 Download the zip file and open it in your command prompt or VS terminal.
+
 Ensure Node.js is installed on your desktop.
+
 Run the command npm install to download required dependencies.
+
 Then run the command nodemon index.js to execute the code.
+
 Open any local browser and navigate to localhost:3000.
+
 To connect to the backend, install MongoDB on your desktop.
+
 🛠️ Tools Used:
 
 Frontend: HTML, CSS, JavaScript
