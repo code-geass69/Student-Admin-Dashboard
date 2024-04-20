@@ -9,17 +9,18 @@
 
 🛠️ How to Run:
 
-1. **Unzip the file** Command: unzip <filename>.zip
-1Check Node.js version:
-Command: node -v
-Install dependencies:
-Command: npm install
-Run the server:
-Command: nodemon index.js
-Access localhost:3000:
-Open a web browser and type localhost:3000 in the address bar.
-Install MongoDB:
-Follow MongoDB's installation instructions for your operating system.
+1. **Unzip the file**
+   *Command: unzip Student-Dashboard-Using-MongoDB.zip*
+
+2. **Install dependencies:**
+   *Command: npm install*
+   
+3.**Run the server:**
+*Command: nodemon index.js*
+
+4.**Access localhost:3000:**
+*Open a web browser and type localhost:3000 in the address bar.*
+
 
 🛠️ Tools Used:
 
