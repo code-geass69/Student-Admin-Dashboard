@@ -10,16 +10,16 @@
 🛠️ How to Run:
 
 1. **Unzip the file**
-   *Command: unzip Student-Dashboard-Using-MongoDB.zip*
+    *Command: unzip Student-Dashboard-Using-MongoDB.zip*
 
 2. **Install dependencies:**
-   *Command: npm install*
+    *Command: npm install*
    
 3.**Run the server:**
-*Command: nodemon index.js*
+   *Command: nodemon index.js*
 
 4.**Access localhost:3000:**
-*Open a web browser and type localhost:3000 in the address bar.*
+    *Open a web browser and type localhost:3000 in the address bar.*
 
 
 🛠️ Tools Used:
